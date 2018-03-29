@@ -1,0 +1,24 @@
+#main{
+float:left;
+width:400px;
+position: fixed;
+background-color:pink;
+height: auto;
+min-height: 100%;
+}
+#main_s {
+height:90%;
+}
+
+#sub{
+float:left;
+width:300px;
+position: fixed;
+background-color:yellow;
+height: auto;
+min-height: 100%;
+margin-left:400px;
+}
+#sub_s {
+height:90%;
+}

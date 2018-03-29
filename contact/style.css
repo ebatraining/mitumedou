@@ -1,0 +1,101 @@
+@media screen and (min-width:768px){
+body{
+  margin:0 auto;
+  background:url(./sozai/bgmailform.png) center top;
+  background-size:100%;
+  background-attachment: fixed;
+  background-color: black;
+  height: 100%;
+}
+p{
+  color:white;
+}
+#main{
+  float:left;
+  width:55%;
+  height:100%;
+  position: fixed;
+}
+#main_s {
+  position:relative;
+}
+#main_s img {
+  position:absolute;
+  right:7%;
+  margin-top:100px;
+}
+#sub{
+  float:left;
+  width:45%;
+  position: fixed;
+  background:black;
+  height: auto;
+  min-height: 100%;
+  margin-left:55%;
+}
+#sub_s {
+  height:90%;
+
+}
+#sub_s p {
+  height:90%;
+  width:70%;
+  margin-top: 75%;
+  margin-left: 30px;
+  color:#F2F2F2;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+}
+td{
+  color:#F2F2F2;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+}
+table{
+  position:absolute;
+  bottom:25%;
+  left:5%;
+}
+input,
+textarea{
+  padding:0;
+  margin:0;
+  width:400px;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+margin-bottom:7px;
+}
+input:focus {
+  border:solid 1px white;
+  outline: 0;
+  padding:0;
+  margin:0;
+}
+textarea:focus{
+  border:solid 1px white;
+  outline: 0;
+  width:40%;
+  padding:0;
+  margin:0;
+}
+td a{
+  padding: 0.2em 1.5em;
+margin: 1em 0;
+font-weight: bold;
+border: solid 1px #FFF;
+-webkit-box-shadow: 1.5px 1.5px 0 #FFF;
+margin-left: 79%;
+*margin-left: 320px;  /* IE7以下 => 結果的にIE7のみ */
+}
+
+td a:hover{
+  padding: 0.2em 1.5em;
+margin: 1em 0;
+font-weight: bold;
+padding: 0.2em 1.5em;
+margin: 1em 0;
+border:none;
+color:#000;
+background-color: white;
+-webkit-box-shadow: 1.5px 1.5px 0 #FFF;
+margin-left: 79%;
+*margin-left: 320px;  /* IE7以下 => 結果的にIE7のみ */
+}
+}

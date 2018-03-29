@@ -1,0 +1,81 @@
+@media screen and (max-width:767px){
+
+body{
+  margin:0;
+}
+
+header ul {
+    list-style: none;
+    position: absolute;
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+    width:100%;
+    background: black;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+header img{
+  padding-top: 5%;
+  padding-left: 27.5%;
+  padding-right: 27.5%;
+  width:35%;
+  padding-bottom: 2%;
+}
+/* 点滅 */
+header img:hover{
+  padding-top: 5%;
+  padding-left: 27.5%;
+  padding-right: 27.5%;
+  width:35%;
+  padding-bottom: 2%;
+	-webkit-animation:blink 3s ease-in-out infinite alternate;
+    -moz-animation:blink 3s ease-in-out infinite alternate;
+    animation:blink 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+header li {
+    float:right;
+    margin:0 auto;
+    width:20%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+header a {
+    padding: 0;
+    text-decoration: none;
+    color:#F2F2F2;  text-decoration:none; /* 元々の下線を消す */
+  display:inline-block; /* リンクを文字列中に置くため */
+  font-size: 100%;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+padding-bottom: 7%;
+}
+header a::before {
+  content:"";
+  display:block;
+  position:relative;
+  top:1.75em; /* 下線になるよう適当に位置調整 */
+  left:0; /* テキストの左端に位置させる */
+  width:0; /* アニメーションさせるため 0 にしておく */
+  height:1px;
+  background:#F2F2F2;/* 下線の色になる */
+  transition:0.3s; /* アニメーションの時間 */
+ font-family:'serif';
+}
+
+header a:hover::before {
+  width:100%; /* ホバー時にテキストの右端まで下線を伸ばす */
+}
+}

@@ -1,0 +1,51 @@
+body{
+  margin:0;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+    width:100%;
+    background: black;
+    margin:0;
+    padding:0;
+    height:100px;
+}
+img{
+  position:left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+li {
+    padding-top: 40px;
+    float:right;
+}
+a {
+    padding: 0 20px;
+    text-decoration: none;
+    color:#F2F2F2;  text-decoration:none; /* 元々の下線を消す */
+  display:inline-block; /* リンクを文字列中に置くため */
+  font-size: 150%;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+
+}
+a::before {
+  content:"";
+  display:block;
+  position:relative;
+  top:1.75em; /* 下線になるよう適当に位置調整 */
+  left:0; /* テキストの左端に位置させる */
+  width:0; /* アニメーションさせるため 0 にしておく */
+  height:1px;
+  background:#F2F2F2;/* 下線の色になる */
+  transition:0.3s; /* アニメーションの時間 */
+ font-family:'serif';
+}
+
+a:hover::before {
+  width:100%; /* ホバー時にテキストの右端まで下線を伸ばす */
+}

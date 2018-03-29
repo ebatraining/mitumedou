@@ -1,0 +1,20 @@
+@media screen and (min-width:768px){
+footer{
+  background:#000;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+footer p{
+  color:#F2F2F2;
+  position:right;
+  margin:0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 90%;
+  text-align: right;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+}
+}

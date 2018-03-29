@@ -1,0 +1,16 @@
+body,html{
+  margin:0;
+  height:100%;
+}
+
+footer{
+  background:#000;
+}
+p{
+  color:#F2F2F2;
+  position:right;
+  margin:0;
+  padding:30px;
+  text-align: right;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+}
